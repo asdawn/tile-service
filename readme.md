@@ -46,7 +46,7 @@ http://openlayers.org/en/latest/apidoc/ol.source.XYZ.html
 
 ## 5.3 瓦片服务负载均衡
 
-目前很多WebGIS类库允许在瓦片地图URL上使用服务器通配符，例如国内某地图服务有t0.********.cn到t7.********.cn共8台服务器，其访问地址可写为：
+目前很多WebGIS类库允许在瓦片地图URL上使用服务器通配符，例如国内某地图服务有t0.\*\*\*\*\*\*\*\*.cn到t7.\*\*\*\*\*\*\*\*\.cn共8台服务器，其访问地址可写为：
 
     http://t{0-7}.******.cn/DataServer?T=vec_w&X={x}&Y={y}&L={z}
 
